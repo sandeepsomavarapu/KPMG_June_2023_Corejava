@@ -1,0 +1,63 @@
+
+
+Language:
+=========
+
+		Communication with human
+		
+Programming Language:
+=====================
+		Communication with Machine
+
+		c,c++,python,.net,java....
+
+		POP									OOP
+B,BCPL,C,COBOL,PHOTON,PASCAL....		C++,.net,Python,java,lisp,smalltalk....	
+
+
+OOPS-->4 features
+	
+			1)Performance	Inheritance,polymorphisam		
+			2)Security		Abstraction,Encapsualion
+			
+
+OOPS --->OOPL
+
+										Microsoft
+Why  JAVA ?								.net
+
+									machine1 		machine2
+									windows11
+									.net			linux	
+										
+		1)Platform Independent (WORA)
+		2)Garbage Collection
+		
+		
+		Welcome to java world
+		
+		
+		Java -->1996 -->Sun micro system-->Oracle ---->james gosling 
+				
+		
+		java 20
+		
+		https://www.javatpoint.com/javafx-how-to-install-java
+		
+		
+				keywords 53--->lower case 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
