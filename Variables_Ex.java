@@ -1,3 +1,4 @@
+package com.kpmg.basics;
 
 public class Variables_Ex {
 	// global variables
@@ -21,5 +22,8 @@ public class Variables_Ex {
 		System.out.println(obj.contact);
 		System.out.println(obj.marks);
 	}
-
+	//add comments -->ctrl+/
+	//for multi line comments -->ctrl+shift+/
+	//for removing multi line comments -->ctrl+shift+\
+	
 }
