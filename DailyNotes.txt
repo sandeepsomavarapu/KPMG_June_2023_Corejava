@@ -160,3 +160,51 @@ IDE
 		distributed applications		webservices
 		
 		mobile applications				android
+
+
+package,import 
+
+
+
+
+package :folder
+
+
+		predefined 
+		userdefined 
+	
+
+NOTE:
+		By Default package for every java file is java.lang 
+
+
+AccessModifier static/instance returntype methodname(param1,param2...) 
+{
+
+
+
+}
+	public static void main(String[] args) {
+
+	}
+
+
+Flow Control:
+===============
+
+	if,else,for,while,do while,switch,case,default,break,continue
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	hi,hello,hi,error,hello
+	
+	
+	
+
+
