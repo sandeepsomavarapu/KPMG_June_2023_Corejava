@@ -74,15 +74,89 @@ Why  JAVA ?								.net
 		byte 		1 byte		-128 to 127
 		short		2 bytes		-32768 to 32767
 		int			4 bytes		-2147483648 to 2147483647
-		long		8 bytes		-2 power  64 to (2 power 64) -1
+		long		8 bytes		-2 power  63 to (2 power 63) -1
+								-9223372036854775808 to 9223372036854775807
 											byte age=32;  long age=22;  byte contactno=9494949494
 		float       4 bytes    21.32424234234234
 		double		8 bytes
 		
-		char        2 bytes
+		char        2 bytes		ASCII  A-65 a-97 18 
 		boolean		1 bit	
 		
 
 		local variables
-		global variables
+		global variables:instance variable,static variable
+		
+		how much memory:depends on the datatype
+		where ?		: instance->heap,static--->method area,local-->stack area
+		when ?
+		
 
+	JDK,JRE,JVM	
+		
+		JVM Architecture:
+		================= 
+			1)CLSS		.class	loading ..    jar file?   zip file
+			2)memory areas
+			3)execution engine
+		
+		
+		method area:all static properties(variable,method,block)
+		heap area  :all instance properties 
+		stack area: all local variables
+		
+	
+		4 key points	
+		
+syntax:
+		static  :static keyword
+		instance:if there is no static ie instance 
+		
+		
+		
+memory
+			how much memory:depends on the datatype
+			where ?		: instance->heap,static--->method area,local-->stack area
+			when ?
+
+		static variables will get memory space ONLY ONCE at the time class loading into JVM
+		instance variables will get memory space for every object creation
+
+		class	A{
+		
+		classname objname=new classname();
+		A obj=new A();
+		}
+		TREE,CAR
+		mango tree,banana tree...huyndai,toyota
+Access
+			static variables/methods can be accessed by using classname 
+			instance properties can be accessed by using objref name 
+
+
+usage 		
+
+			to represent common data like schoolname,clg name,org name,country name...static 
+			to represent unique data  like mobileno,aadhar,pan,accno,empid,stdid,....instance
+		
+		
+		class is a collection data members+ member functions
+		
+		object is instance of a class
+		
+		
+IDE
+		eclipse,netbeans,myeclipse,intellji....
+		
+		
+				JAVA
+		JSE		 JEE	JME		
+		
+		
+		standalone/desktop applications  corejava,awt,swings,applets....
+		
+		web applications  				servlets,jsp,mvc,spring,jpa.....
+		
+		distributed applications		webservices
+		
+		mobile applications				android
