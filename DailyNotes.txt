@@ -264,7 +264,7 @@ extends,implements
 	}
 	
 
-abstract,concrete,class,abstract class,interfaces,abstraction,MI
+abstract,concrete methods, class,abstract class,interfaces,abstraction,MI
 Polymorphisam(overloading,overriding),final,constructor,this,super,encapsulation
 
 public,private,protected,default
@@ -321,5 +321,41 @@ public void m1()
 ......
 }
 }
+
+Polymorphisam:
+================
+
+many forms 
+
+
+	method overloading ,method overriding
+	
+	
+Method Overloading
+===================	
+
+	method name is same but signature is different 
+
+								no of params
+								order of params
+								type of params
+
+
+	Method Overiding 
+	
+		method name is same implementation is different
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
