@@ -176,6 +176,7 @@ package :folder
 
 NOTE:
 		By Default package for every java file is java.lang 
+		BY Default parent class for every java class  is java.lang.Object
 
 
 AccessModifier static/instance returntype methodname(param1,param2...) 
@@ -204,7 +205,84 @@ Flow Control:
 	
 	hi,hello,hi,error,hello
 	
+	Day-3 21-06-2023
+	================
+	
+	variables,identifiers
+	
+	syntax:
+			static
+			no keyword-->instance
+	memory:
+			heap area-instance-->at the time object creation
+			method area-->static -->at the time of class loading into JVM
+	
+	Access:
+			instance --->Object ref
+			static   --->classname 			
+	
+	Usage 	
+			static-->common properties
+			instance-->unique properties
+	
+	Datatypes	
 	
 	
+	flow control
+	
+	
+	OOPS Features:
+	==============
+	
+		Inheritance
+		polymorphisam
+		encapsulation
+		abstration
+	
+	
+	Inheritance:
+	============= Code Reusability-->performance
+	
+	the process of equiring/getting properties from one class to another class 
+	
+	Code Reusability
+
+extends,implements
+	
+	class Test
+	{
+	 //30 methods
+	
+	
+	}
+	
+	
+	class MyClass extends Test			 class A
+	{
+	//20 methods 
+	
+	}
+	
+	
+Multiple inheritance:
+
+MI Not supported by java @ class level
+MI supported by java through interfaces 
+
+
+
+
+abstract,concrete,class,abstract class,interfaces,abstraction,MI,Polymorphisam(overloading,overriding),final,constructor,this,super,encapsulation
+
+public,private,protected,default
+
+
+
+
+
+
+
+
+
 
 
