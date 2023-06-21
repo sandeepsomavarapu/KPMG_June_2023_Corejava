@@ -263,26 +263,63 @@ extends,implements
 	
 	}
 	
-	
-Multiple inheritance:
 
-MI Not supported by java @ class level
-MI supported by java through interfaces 
-
-
-
-
-abstract,concrete,class,abstract class,interfaces,abstraction,MI,Polymorphisam(overloading,overriding),final,constructor,this,super,encapsulation
+abstract,concrete,class,abstract class,interfaces,abstraction,MI
+Polymorphisam(overloading,overriding),final,constructor,this,super,encapsulation
 
 public,private,protected,default
 
 
 
 
+Methods:
+		instance,static 
+
+
+	method signature + method body-->concrete method
+
+	with out body+method signature-->abstract method
 
 
 
+class			: its a collection only concrete methods
+abstract class	: its a combination of both abstract and concrete methods
+interface		: its a collection o only abstract methods
 
 
+
+			abstraction:Abstract classes(0-100 %),interfaces(100%)
+
+
+Multiple inheritance:
+
+MI Not supported by java @ class level
+MI supported by java through interfaces 
+
+
+interface  A			interface  B
+{					{
+
+public void m1();		public void m1();
+
+
+
+}					}
+
+
+class C implements A,B
+{
+public static void main(String args[])
+{
+	C c=new C();
+	c.m1();
+	
+
+}
+public void m1()
+{
+......
+}
+}
 
 
