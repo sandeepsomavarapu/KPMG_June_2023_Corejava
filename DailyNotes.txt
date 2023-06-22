@@ -348,6 +348,84 @@ Method Overloading
 
 
 
+		Final:variable,method,class
+
+
+
+constructor:
+============
+
+	constructor is a special member function(method)
+
+			1)instantiation of a class 
+			
+			class A
+			{
+			
+			
+			}
+			
+			
+			classname objname=new classname();
+			
+			classname objname=new constructor();
+			
+				A obj=new A();
+				
+				
+
+this is used to represent current class properties(variable,method,constructor,object)
+
+super is used to represent parent class properties
+
+
+
+
+
+public 		:Every where  we can access
+
+private		:class level scope
+
+protected	: inside the package everywhere outside the package only when child
+
+default		:package level scope
+
+
+
+Encapsulation:
+==============
+	Encapsulation is a process of wrapping the datamembers(variables) and member functions(methods) 
+
+
+													private data 		and public methods setters and getters 
+File IO
+
+
+
+Exception Handling
+
+
+
+
+Collections
+
+
+Multi threading 
+
+
+JAVA8 features
+
+
+
+Git hub
+
+
+
+
+
+
+
+
 
 
 
