@@ -413,6 +413,9 @@ String,StringBuffer,StringBuilder						--->java.lang
 	String is immutable
 	
 	StringBuffer and StringBuilder are muttable
+	
+	SBuffer-->synchronized
+	SBuilder-->Not Synchronized
 
 
 					
@@ -487,7 +490,8 @@ User defined exception
 
 
 	
-
+Day-6:
+=======
 
 File IO
 ========
@@ -512,6 +516,75 @@ EMployee,product,---->file
 
 Serialization-->the process of converting object data to byte data 
 De-Serialization-->the process of converting byte data to object data 
+
+
+MultiThreading:
+----------------
+	multi tasking:Executing several tasks simultaneously 
+
+
+		process based multi tasking :
+				executing several tasks simultaneously where each task seperate independent process 
+			
+		thread based multi tasking (multi threading)
+
+				executing several tasks simultaneously where each and every task belongs to same process 
+ 
+ Process:group of threads 
+
+	thread :a smallest unit of process
+	
+	
+	2 ways 
+		
+		1)extends Thread
+		2)implements Runnable		run()
+		
+		
+		default thread-->main
+		
+		
+		thread scheduler-->priorities
+		
+		1-10
+			
+		main thread-5		-->main
+		child thread -->extended from main -->thread-0
+		
+		
+		
+		public void m1()
+		{
+		
+		
+		//no thread safety 
+		
+		}
+										at a time only one thread is allowed access 
+		public synchronized void m2()
+		{
+	
+		//thread safety
+	
+	
+		}
+	
+	
+
+
+https://www.javamadesoeasy.com/2015/03/thread-states-thread-life-cycle-in-java.html
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
