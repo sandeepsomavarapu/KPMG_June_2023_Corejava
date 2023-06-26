@@ -17,8 +17,8 @@ B,BCPL,C,COBOL,PHOTON,PASCAL....		C++,.net,Python,java,lisp,smalltalk....
 
 OOPS-->4 features
 	
-			1)Performance	Inheritance,polymorphisam		
-			2)Security		Abstraction,Encapsualion
+			1)Performance	Inheritance(extends,implements),polymorphisam(method overloading &overriding)		
+			2)Security		Abstraction(abstract class,interface),Encapsualion(data&methods together)
 			
 
 OOPS --->OOPL
@@ -398,11 +398,135 @@ Encapsulation:
 
 
 													private data 		and public methods setters and getters 
+													
+Scanner
+=========													
+						java.util
+						
+						dynamic input
+						
+String,StringBuffer,StringBuilder						--->java.lang
+						
+	to represent group chars 
+	
+	
+	String is immutable
+	
+	StringBuffer and StringBuilder are muttable
+
+
+					
+DAY-5:
+
+Exception Handling:
+===================
+
+Limitations without exception handling
+
+	1)System defined error message 
+	2)abnormal termination
+
+
+
+Two Advantages with exception handling
+
+	1)user friendly  error message 
+	2)normal termination
+
+
+Exception handling is mechanisam of converting system defined error messages into user friendly error messages 
+	
+
+
+	try,catch,finally,throw,throws
+
+	
+		try--->error code 
+	catch	-->Handling code
+	finally -->cleanup code
+	throw	-->to throw an exception
+	throws	-->to give info to the caller 
+
+
+
+try,catch,finally,throw,throws
+
+
+
+	try{
+	
+	}
+	catch()
+	{
+	
+	}
+	finally{
+	
+	}
+
+throw,throws,user defined exception
+
+AE
+
+throw :
+
+if(age<18)
+{
+throw new AE("age cant be lessthan 18");
+}
+
+throws--->info to the caller 
+
+
+
+User defined exception
+
+1)class AgeNotValid extends Exception/Throwable/RuntimeException
+
+2)param constructor
+
+
+	
+
+
 File IO
+========
+		input output
+
+		create file,write ,read
+		
+		java.io
+
+stream of data	--> flow of data	
+		java.io
+		character stream	File,FileWriter,BufferedWriter,PrintWriter(println),FileReader,BufferedReader
+		byte stream -->2bytes	FileOutputStream,FileInputStream
+		data stream	-->			DataOutputStream,DataInputStream
+		object stream			ObjectOutputStream,ObjectInputStream
+		buffered stream -->1024 bytes BufferedOutputStream,BufferedInputStream
 
 
 
-Exception Handling
+
+EMployee,product,---->file
+
+Serialization-->the process of converting object data to byte data 
+De-Serialization-->the process of converting byte data to object data 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
