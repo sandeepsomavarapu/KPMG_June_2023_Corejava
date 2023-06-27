@@ -576,6 +576,115 @@ https://www.javamadesoeasy.com/2015/03/thread-states-thread-life-cycle-in-java.h
 
 
 
+Collections
+============
+
+		variable-->name given to the memory location
+	
+		int id=123;
+		id=234;
+
+		arrays
+		
+			group of objects
+
+		int ids[]={23,43,22,55,775,90,88};
+
+		float marks[]=new int[10];//AIOE
+
+			
+			index
+
+Arrays:
+=======
+		1)arrays can hold only homogeneous data(similar data)
+		2)arrays are fixed in size AIOE
+		3)no utility methods
+
+
+Collections		
+===========
+
+		1)collections can hold both homogeneous and heterogeneous data(similar data)
+		2)collections are not fixed in size  AL-10,16
+		3)100's utility methods
+
+
+
+collections framework(ready made)
+
+
+		Collection						MAP
+List 		Set      Queue					
+	
+
+
+			List					Set						Map
+				-->AL					-->HS					-->HM
+				-->LL					-->LHS					-->LHM
+				-->Vector						-->TS				-->TM
+					-->Stack
+
+								Comparable,Comparator
+
+
+List:
+-----
+		-->duplicates are allowed 
+		-->insertion order is preserved 
+		
+		java.util
+		
+		
+		
+		ArrayList  			 Vector(legaccy)
+	not-synchronized		synchronized
+	no thread safety		thread safety 
+	
+	
+			Stack-->FILO
+	
+		
+			Queue-->FIFO
+			
+		ArrayList 
+
+		
+
+		LinkedList
+	
+	
+
+Set:
+-----
+		-->duplicates are not allowed 
+		-->insertion order is not followed 
+			
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
