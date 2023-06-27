@@ -662,14 +662,24 @@ Set:
 			
 	
 	
+Comparable vs Comparator 	
+=========================
 	
-	
-	
-	
-	
+	interface-->any no of public abstract
+	FI		-->SAM
+	MI
+	Comparable-->FI-->compareTo-->NSO
+	 returns -ve if obj1 has to come before obj2
+	 returns +ve if obj1 has to come after obj2
+	 returns 0 if both are same
+	 
+	 java.util.Comparator-->CSO-->FI-->compare()
 
+MAP:
+=====
 
-
+	map is collection of entries
+	entry-->key,value
 
 
 
