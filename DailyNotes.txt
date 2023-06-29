@@ -666,8 +666,8 @@ Comparable vs Comparator
 =========================
 	
 	interface-->any no of public abstract
-	FI		-->SAM
-	MI
+	FI		-->SAM			Comaprable,Comparator,Runnable...
+	MI		-->ZERO methods	ex:Serializable
 	Comparable-->FI-->compareTo-->NSO
 	 returns -ve if obj1 has to come before obj2
 	 returns +ve if obj1 has to come after obj2
@@ -677,63 +677,65 @@ Comparable vs Comparator
 
 MAP:
 =====
-
-	map is collection of entries
+	mpa is not child to Collection interface
+	map is collection of entries(key,value -->entry)
 	entry-->key,value
+	
+	
+	HM,LHM,TM
+	
+JAVA8 features:
+===============		Functional Programming,Parallel Programing 
+			
+	1)Lamda Expressions
+	2)Funtional Interface
+	3)default and static methods
+	4)Predefined FI
+	5)Method reference or constructor reference
+	6)stream api
+	7)date and time api
 
 
 
+welcome to java
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Collections
-
-
-Multi threading 
-
-
-JAVA8 features
-
+print("welcome to python")
 
 
 Git hub
+
+
+
+
+Lamda Expressions:
+==================
+	Anonyoums function
+	
+			w/o method name,w/o param dt,w/o return,w/o modifier
+
+
+public int addOfTwo(int a,int b)
+{
+int result=a+b;
+return result;
+}
+
+	
+  (a,b)-> a+b
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
