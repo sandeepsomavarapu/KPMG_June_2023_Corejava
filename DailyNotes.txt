@@ -725,22 +725,54 @@ return result;
   (a,b)-> a+b
 
 
+GIT:
+====		DVCS
+
+	Calculator
+		
+		
+	Calculator1.0
+
+
+	Calculator2.0
+
+
+SVN -->CVCS
 
 
 
+		git init
+		git status
+		git log
+		git clone git url
+		git push
+		git pull
+		git add
+		git ignore 
 
 
 
+Webservices:
+=============
+	communication/share info  between two interoperable applications
 
 
 
+phonepe,gpay,paythm,redbus,irctc....
 
 
 
+electricity bill
+		phonepe-->serviceno 
 
 
+ATM
 
+			SOAP						 REST
 
+			xml							XML,JSON,PT,JS,HTML
+
+		XMl,JSON,PT,JS,HTML
 
 
 
